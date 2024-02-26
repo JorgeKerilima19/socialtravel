@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "../index.css";
-// import "../styles/home.css";
+import "../styles/home.css";
 import { BsArrowRightCircleFill } from "react-icons/bs";
 
 import backToTop from "../helpers/functions/backToTop";

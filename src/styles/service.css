@@ -1,0 +1,105 @@
+.slider__container {
+  min-height: 20rem;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.slider__items-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 20rem;
+  overflow: hidden;
+}
+.slider__item-container {
+  width: max(20rem, 60%);
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  transition: transform 2s;
+  color: rgb(228, 228, 228);
+  font-weight: 800;
+  font-size: 1.5rem;
+  overflow: hidden;
+}
+.slider__item-container::after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.13);
+  position: absolute;
+}
+.slider__arrow-left,
+.slider__arrow-right {
+  top: 50%;
+  position: absolute;
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+.slider__arrow-right {
+  right: 0;
+}
+.slider__arrow-left {
+  left: 0;
+}
+.slider__dot-container {
+  display: flex;
+  justify-content: center;
+  height: 2rem;
+  width: 8rem;
+  position: absolute;
+  bottom: -2rem;
+}
+.slider__dot {
+  width: 1rem;
+  height: 1rem;
+  margin: 0.5rem;
+  border: thin solid var(--tertiary-color);
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+}
+.slider__dot.current {
+  background-color: var(--tertiary-color);
+}
+.slider__item-container.prev {
+  transform: scale(0.5) translateX(-100%);
+  z-index: -1;
+}
+.slider__item-container.post {
+  transform: scale(0.5) translateX(100%);
+  z-index: -1;
+}
+.slider__item-container.behind {
+  transform: scale(0.1) translateX(0%);
+  z-index: -1;
+}
+.service__ceo-container {
+  color: var(--font-color-primary);
+  background: linear-gradient(
+    248deg,
+    rgba(255, 127, 41, 1) 23%,
+    rgba(255, 75, 75, 1) 64%
+  );
+}
+.service__container-about {
+  overflow: hidden;
+}
+.service__ceo-img {
+  width: min(100%, 15rem);
+}
+.service__img {
+  width: 10rem;
+}
+
+.width__wrap {
+  width: max(80%, 20rem);
+}
+.service__ceo-range {
+  text-decoration: underline 0.2rem var(--tertiary-color);
+  line-height: 1rem;
+  text-underline-offset: 0.5rem;
+}

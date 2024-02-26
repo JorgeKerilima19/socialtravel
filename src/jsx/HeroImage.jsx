@@ -1,7 +1,7 @@
 import { NavItems as data } from "./Navbar";
 import { Link } from "react-router-dom";
 
-// import "../styles/main.css";
+import "../styles/main.css";
 import backToTop from "../helpers/functions/backToTop";
 
 export default function HeroImage({ src }) {

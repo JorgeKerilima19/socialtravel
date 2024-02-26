@@ -4,8 +4,8 @@ import Destinations from "../jsx/Destination";
 import { Destinations as data } from "../helpers/data/destination";
 import ServicesSlider from "../jsx/ServicesSlider";
 
-// import "../styles/service.css";
-// import Newsletter from "../jsx/Newsletter";
+import "../styles/service.css";
+import Newsletter from "../jsx/Newsletter";
 
 export function Services() {
   return (

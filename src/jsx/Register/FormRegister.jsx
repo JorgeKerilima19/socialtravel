@@ -1,4 +1,4 @@
-// import "../../styles/registerForm.css";
+import "../../styles/registerForm.css";
 
 function FormRegister() {
   return (

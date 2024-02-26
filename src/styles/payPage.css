@@ -1,0 +1,96 @@
+.section__pay {
+  min-height: calc(100vh - 22rem);
+  padding: 2rem;
+}
+.pay__svg-container {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  border: thin solid var(--tertiary-color);
+}
+.pay__svg-info {
+  height: 90%;
+  width: 90%;
+}
+.pay__empty-container {
+  background-color: var(--font-color-primary);
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+  position: relative;
+}
+.pay__empty-container::after {
+  position: absolute;
+  top: -2rem;
+  left: 4.8rem;
+  content: "";
+  clip-path: polygon(50% 0%, 0 100%, 100% 100%);
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--font-color-primary);
+}
+.pay__svg-cart {
+  height: 2rem;
+  width: 2rem;
+}
+.cart__items-container li:last-child {
+  margin-right: 2rem;
+}
+.button__container {
+  height: 2rem;
+}
+.cart__button {
+  background-color: var(--tertiary-color);
+  color: var(--font-color-primary);
+  width: 4rem;
+  height: 2rem;
+}
+.grid__area-1 {
+  grid-area: tour;
+  width: 20rem;
+}
+.grid__area-1 span {
+  max-width: 15rem;
+}
+.grid__area-2 {
+  grid-area: tickets;
+  display: flex;
+  justify-content: space-between;
+}
+.grid__area-3 {
+  grid-area: buttons;
+}
+.grid__area-4 {
+  grid-area: subtotal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 1rem 0.5rem;
+}
+.cart__item-container {
+  display: grid;
+  grid-template-areas:
+    "tour tickets"
+    "buttons subtotal ";
+  grid-row-gap: 0.8rem;
+}
+@media (max-width: 600px) {
+  .section__pay {
+    padding: 2rem 0.2rem;
+  }
+  .grid__area-1 {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .grid__area-1 span {
+    max-width: 7rem;
+  }
+  .cart__item-container {
+    grid-template-areas:
+      "tour"
+      "tickets"
+      "subtotal "
+      "buttons";
+  }
+}
