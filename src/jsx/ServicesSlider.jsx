@@ -8,25 +8,25 @@ import backToTop from "../helpers/functions/backToTop";
 const popularTours = [
   {
     name: "MachuPicchu",
-    url: "/TripPageReact/service/peru/1",
+    url: "/socialtravel/service/peru/1",
     src: "https://images.unsplash.com/photo-1526392060635-9d6019884377?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
     country: "Peru",
   },
   {
     name: "Rio de Janeiro",
-    url: "/TripPageReact/service/brasil/1",
+    url: "/socialtravel/service/brasil/1",
     src: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
     country: "Brasil",
   },
   {
     name: "Cartagena",
-    url: "/TripPageReact/service/colombia/1",
+    url: "/socialtravel/service/colombia/1",
     src: "https://images.unsplash.com/photo-1583531352515-8884af319dc1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
     country: "Colombia",
   },
   {
     name: "Buenos Aires",
-    url: "/TripPageReact/service/argentina/1",
+    url: "/socialtravel/service/argentina/1",
     src: "https://images.unsplash.com/photo-1495317823589-e67efe1524b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
     country: "Argentina",
   },

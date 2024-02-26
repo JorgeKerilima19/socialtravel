@@ -9,7 +9,7 @@ const Destinations = ({ item }) => {
   return (
     <>
       <Link
-        to={`/TripPageReact/service/${item.id}`}
+        to={`/socialtravel/service/${item.id}`}
         className="flex flex__column flex__sp-center ps__relative homepage__destination-card"
         onClick={backToTop}
       >

@@ -12,7 +12,7 @@ const TourContextProvider = ({ children }) => {
   );
 
   const getData = async (destination) => {
-    const res = await fetch(`/TripPageReact/resources/api/${destination}.json`);
+    const res = await fetch(`/socialtravel/resources/api/${destination}.json`);
     const data = await res.json();
 
     return data;

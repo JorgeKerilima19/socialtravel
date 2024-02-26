@@ -9,7 +9,7 @@ import {
   IoIosTrash,
 } from "react-icons/io";
 
-// import "../styles/payPage.css";
+import "../styles/payPage.css";
 
 export const PayPage = () => {
   const { wishList, removeFromCart } = useContext(TourContext);

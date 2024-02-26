@@ -1,4 +1,4 @@
-// import CEO from "../jsx/CEO";
+import CEO from "../jsx/CEO";
 import HeroImage from "../jsx/HeroImage";
 import Information from "../jsx/About/InformationAbout";
 

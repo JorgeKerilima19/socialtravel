@@ -4,7 +4,7 @@ import { BsArrowLeftCircleFill } from "react-icons/bs";
 const tripNavbarItems = [
   {
     id: "Information",
-    route: "",
+    route: "./",
   },
   {
     id: "Tour Plan",

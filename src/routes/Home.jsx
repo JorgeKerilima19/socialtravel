@@ -6,8 +6,8 @@ import Destinations from "../jsx/Destination";
 import "../index.css";
 import Features from "../jsx/Homepage/Features";
 import CustomerReview from "../jsx/CustomerReview";
-// import Newsletter from "../jsx/Newsletter";
-// import HomeServices from "../jsx/Homepage/HomeServices";
+import Newsletter from "../jsx/Newsletter";
+import HomeServices from "../jsx/Homepage/HomeServices";
 
 export function Home() {
   return (
@@ -24,12 +24,12 @@ export function Home() {
             return <Destinations key={index} item={item} />;
           })}
         </section>
-        {/* <HomeServices /> */}
+        <HomeServices />
         <section className="flex__container flex__item-center width__full">
           <h4 className="section-title">What Our Customers Have To Say </h4>
-          {/* <CustomerReview /> */}
+          <CustomerReview />
         </section>
-        {/* <Newsletter /> */}
+        <Newsletter />
       </div>
     </>
   );
